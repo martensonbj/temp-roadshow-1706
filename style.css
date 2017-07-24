@@ -69,6 +69,14 @@ input {
   background: #E35C48;
 }
 
+.grocery-list-form--submit.disabled {
+  background: #aaa;
+}
+
+.grocery-list-form--submit.disabled:hover {
+  cursor: not-allowed;
+}
+
 .grocery-list {
   background: #FFE4C7;
   border-bottom: 5px solid #FFB669;
